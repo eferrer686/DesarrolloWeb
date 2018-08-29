@@ -1,0 +1,36 @@
+.scores{
+  padding-top: 10px;
+  width: 100%;
+  margin: 0 auto;
+
+    .title{
+        @include important-text;
+        font-size: 24px;
+        color: $b2;
+    }
+    .header{
+        @include important-text;
+        font-size: 20px;
+        color: darken($b2,15);
+    }
+    .row-odd{
+        @include table-row-default;
+        color: $y1;
+        background: $r1;
+        font-weight: bold;
+    }
+    .row-even{
+        @include table-row-default;
+        color: $y1;
+        background: darken($r1,5);
+        font-weight: bold;
+    }
+
+    table {
+      margin: 0 auto;
+      width: 80%;
+    }
+    tr{
+      margin: 0 auto;
+    }
+}

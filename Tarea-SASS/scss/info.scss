@@ -1,0 +1,18 @@
+.info{
+    
+    color: $r1;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+
+
+    @media(min-width: $small-screen){
+        font-size: calc-fontsize($small-screen);
+    }
+    @media(min-width: $medium-screen){
+        font-size: calc-fontsize($medium-screen);
+    }
+    @media(min-width: $large-screen){
+        font-size: calc-fontsize($large-screen);
+    }
+}

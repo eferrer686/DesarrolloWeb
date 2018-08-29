@@ -1,0 +1,21 @@
+.groups{
+    margin: 0 auto;
+    text-align:center;
+    width: 100%;
+    background-color: $y1;
+    padding: 10px;
+    color: darken($y2,10);
+    font-weight: bold;
+
+    .calendar{
+        font-style:italic;
+    }
+    .final{
+        font-style:italic;
+    }
+    
+    td{
+        margin: 0 auto;
+        padding:10px;
+    }
+}
