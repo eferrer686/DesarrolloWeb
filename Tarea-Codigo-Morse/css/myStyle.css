@@ -1,0 +1,27 @@
+body{
+  margin: auto auto;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient(#99c2ff,#0066ff);
+}
+
+.mensaje{
+  margin: auto auto;
+  padding: 10px;
+}
+.result{
+  margin: auto auto;
+  padding: 10px;
+}
+h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: darkblue;
+}
+p{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 24px;
+}
