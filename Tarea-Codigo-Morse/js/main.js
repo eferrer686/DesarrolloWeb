@@ -27,12 +27,10 @@ var morseMap = {
                   z:"--..",
                   " ":" "
                 }
-audioCtx = new(window.AudioContext || window.webkitAudioContext)();
-
-
 var short =500;
 var long = 1500;
 var delay = 500;
+var doc = document.getElementById("body");
 
 function convertir(val){
   var morse = "";
@@ -40,36 +38,37 @@ function convertir(val){
   for (var i = 0; i<word.length;i++){
     morse += morseMap[word[i]];
   }
-  console.log(morse);
-  for (var j = 0; j<morse.length;j++){
 
-    console.log(morse[j]);
 
-  }
   html = "<p>"+morse+"</p>"
   document.getElementById("result").innerHTML = html;
 
+  // for (var j = 0; j<morse.length;j++){
+  //
+  //   if(morse[j]=='.'){
+  //     document.body.style.backgroundColor = "yellow";
+  //     wait(short);
+  //     document.body.style.backgroundColor = "blue";
+  //     wait(delay);
+  //   }else if (morse[j]=='-') {
+  //     document.body.style.backgroundColor = "yellow";
+  //     wait(long);
+  //     document.body.style.backgroundColor = "blue";
+  //     wait(delay);
+  //   }else{
+  //     document.body.style.backgroundColor = "yellow";
+  //     wait(short);
+  //     document.body.style.backgroundColor = "blue";
+  //     wait(short*7);
+  //   }
+  //
+  // }
+
 }
-
-
-
-function beep(duration) {
-  var oscillator = audioCtx.createOscillator();
-  var gainNode = audioCtx.createGain();
-
-  oscillator.connect(gainNode);
-  gainNode.connect(audioCtx.destination);
-
-  gainNode.gain.value = 0.5;
-  oscillator.frequency.value = 640;
-  oscillator.type = "sine";
-
-  oscillator.start();
-
-  setTimeout(
-    function() {
-      oscillator.stop();
-    },
-    duration
-  );
+function wait(ms){
+   var start = new Date().getTime();
+   var end = start;
+   while(end < start + ms) {
+     end = new Date().getTime();
+  }
 }
