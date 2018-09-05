@@ -48,7 +48,15 @@
     background-color: $greenMain;
     transition: margin-left .5s;
     padding: 20px;
-
+    color: $white;
     height: 100%;
     width: 100%;
+    p{
+      margin: 20px;
+      font-size: 18px;
+    }
+    h1,h2{
+      color: $white;
+      text-align: center;
+    }
 }

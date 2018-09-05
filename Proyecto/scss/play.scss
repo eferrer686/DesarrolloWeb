@@ -5,12 +5,6 @@
 #main{
   @include main;
 
-
-  h1,h2{
-    color: $white;
-    text-align: center;
-  }
-
   .playMenu{
     text-align: center;
   }

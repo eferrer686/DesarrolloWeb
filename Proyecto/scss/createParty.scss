@@ -3,4 +3,39 @@
 }
 #main{
   @include main;
+
+  .addChallengers{
+    margin: 0 auto;
+    text-align: center;
+    background-color: $greenDark1;
+    border-radius: 5px;
+
+
+    input[type=text]{
+      background-color: rgba(0,0,0,0);
+      margin: 0px auto;
+      padding: 20px;
+      border: none;
+      width: 100%;;
+      font-size: 20px;
+    }
+
+    .addChallengerBtn {
+      h6{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $greenMain;
+        font-size: 36px;
+        right: 20px;
+        transition: 0.2s;
+      }
+      h6:hover{
+        background-color: $greenDark2;
+        cursor: pointer;
+      }
+    }
+
+
+  }
 }
