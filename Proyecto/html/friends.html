@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Friends List</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../css/myStyle.css">
+  </head>
+
+  <body class="friendsBody">
+
+    <!--Sidenav -->
+    <div id="sidenav" class="sidenav">
+      <!-- This Closes Side Nav -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!--  -->
+      <a href="../html/play.html">Play</a>
+      <a href="../html/friends.html">Friends</a>
+      <a href="../html/stats.html">Stats</a>
+      <a href="../html/profile.html">Profile</a>
+      <a href="../html/help.html">Contact</a>
+      <a href="../index.html">Logout</a>
+    </div>
+
+    <!-- TopNav -->
+    <div id="topnav" class="topnav">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2">
+            <a href="../html/play.html">Play</a>
+          </div>
+          <div class="col-sm-2">
+            <a href="../html/friends.html">Friends</a>
+          </div>
+          <div class="col-sm-2">
+            <a href="../html/stats.html">Stats</a>
+          </div>
+          <div class="col-sm-2">
+            <a href="../html/profile.html">Profile</a>
+          </div>
+          <div class="col-sm-2">
+            <a href="../html/help.html">Contact</a>
+          </div>
+          <div class="col-sm-2">
+            <a href="../index.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Beginning of page -->
+    <div class="main">
+      <!-- Para Sidenav -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-1">
+            <!-- This Opens side nav -->
+            <span id="openbtn" class="openNav" onclick="openNav()">
+              <!--  -->
+              <p>&#9776;</p>
+            </span>
+          </div>
+          <div class="col-xs-11">
+            <h1>Friend List</h1>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+      <div class="container">
+        <!-- Un amigo -->
+        <div class="FriendBox">
+          <div class="row">
+            <div class="col-xs-4">
+              <img width="128" height="128" src="../img/ferri.jpg" alt="">
+            </div>
+            <div class="col-xs-4">
+              <h4 onclick="seeProfile()">Eduardo Ferrer Mac</h4>
+            </div>
+            <div class="col-xs-4">
+              <img width="32" height="32" src="../img/profile.png" alt="" onclick="seeProfile()">
+              <img width="32" height="32" src="../img/message.png" alt="">
+              <img width="32" height="32" src="../img/deleteFriend.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Un amigo -->
+        <div class="FriendBox">
+          <div class="row">
+            <div class="col-xs-4">
+              <img width="128" height="128" src="../img/villa.jpg" alt="">
+            </div>
+            <div class="col-xs-4">
+              <h4 onclick="seeProfile()">Luis Villa</h4>
+            </div>
+            <div class="col-xs-4">
+              <img width="32" height="32" src="../img/profile.png" alt="" onclick="seeProfile()">
+              <img width="32" height="32" src="../img/message.png" alt="">
+              <img width="32" height="32" src="../img/deleteFriend.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Un amigo -->
+        <div class="FriendBox">
+          <div class="row">
+            <div class="col-xs-4">
+              <img width="128" height="128" src="../img/manu.jpg" alt="">
+            </div>
+            <div class="col-xs-4">
+              <h4 onclick="seeProfile()">Manuel Avalos</h4>
+            </div>
+            <div class="col-xs-4">
+              <img width="32" height="32" src="../img/profile.png" alt="" onclick="seeProfile()">
+              <img width="32" height="32" src="../img/message.png" alt="">
+              <img width="32" height="32" src="../img/deleteFriend.png" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- End of page -->
+
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="../js/jQuery/jquery.js"></script>
+    <script type="text/javascript" src="../js/gui.js"></script>
+
+  </body>
+</html>
