@@ -104,9 +104,14 @@
   color: #00cc66;
 }
 
+.openNavPar {
+  min-width: 50px;
+}
+
 .openNav {
   text-align: center;
   margin: 0px 10px 0px 10px;
+  min-width: 100%;
 }
 .openNav p {
   font-size: 24px;
@@ -183,10 +188,12 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  box-shadow: 5px 5px 2px #008040;
+  box-shadow: 1px 5px #008040;
 }
 .login img:hover {
+  margin-top: 12px;
   cursor: pointer;
+  box-shadow: none;
 }
 
 body {
@@ -198,8 +205,7 @@ body {
   width: 100%;
   height: 100%;
 }
-
-#main {
+.createPartyBody #main {
   background-color: #00cc66;
   transition: margin-left 0.5s;
   padding: 20px;
@@ -207,21 +213,21 @@ body {
   height: 100%;
   width: 100%;
 }
-#main p {
+.createPartyBody #main p {
   margin: 20px;
   font-size: 18px;
 }
-#main h1, #main h2 {
+.createPartyBody #main h1, .createPartyBody #main h2 {
   color: white;
   text-align: center;
 }
-#main .addChallengers {
+.createPartyBody #main .addChallengers {
   margin: 0 auto;
   text-align: center;
   background-color: #00994d;
   border-radius: 5px;
 }
-#main .addChallengers input[type=text] {
+.createPartyBody #main .addChallengers input[type=text] {
   background-color: rgba(0, 0, 0, 0);
   margin: 0px auto;
   padding: 20px;
@@ -230,7 +236,7 @@ body {
   font-size: 20px;
   text-align: center;
 }
-#main .addChallengers .addChallengerBtn h6 {
+.createPartyBody #main .addChallengers .addChallengerBtn h6 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -239,11 +245,11 @@ body {
   right: 20px;
   transition: 0.2s;
 }
-#main .addChallengers .addChallengerBtn h6:hover {
+.createPartyBody #main .addChallengers .addChallengerBtn h6:hover {
   background-color: #008040;
   cursor: pointer;
 }
-#main input[type=button] {
+.createPartyBody #main input[type=button] {
   height: 30px;
   margin: 20px;
   color: white;
@@ -260,8 +266,102 @@ body {
   width: 100px;
   height: 50px;
 }
-#main input[type=button]:hover {
+.createPartyBody #main input[type=button]:hover {
   background-color: #00994d;
+}
+
+.FriendBox {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 230px;
+  padding: 20px !important;
+}
+.FriendBox h4 {
+  font-size: 32px;
+}
+.FriendBox img {
+  transition: 0.2s;
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.FriendBox img:hover {
+  background-color: #00cc66;
+  border-color: #00994d;
+  cursor: pointer;
+}
+.FriendBox .userPhoto, .FriendBox .userPhoto :hover {
+  background-color: #008040;
+  border-radius: 15px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.searchFriendText input[type=text] {
+  font-size: 24px;
+  padding: 15px;
+  background-color: #008040;
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+  transition: 0.2s;
+}
+.searchFriendText input[type=text]:focus {
+  background-color: #00994d;
+}
+
+.searchFriendBtn input[type=button] {
+  text-align: center;
+  padding: 20px;
+  background-color: #008040;
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+  transition: 0.2s;
+}
+.searchFriendBtn input[type=button]:hover {
+  background-color: #00994d;
+}
+
+.stats {
+  text-align: center;
+}
+.stats .level,
+.stats .GamesPlayed,
+.stats .WinLossRatio,
+.stats .Accuracy {
+  padding: 10px !important;
+  min-width: 350px;
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 230px;
+  margin: 5px;
+}
+.stats .level:hover,
+.stats .GamesPlayed:hover,
+.stats .WinLossRatio:hover,
+.stats .Accuracy:hover {
+  background-color: #00cc66;
+  border-color: #00994d;
+  cursor: pointer;
+}
+.stats img {
+  margin-top: 10px;
+  width: 25%;
 }
 
 /*# sourceMappingURL=myStyle.css.map */

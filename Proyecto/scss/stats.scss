@@ -1,0 +1,25 @@
+.stats{
+  text-align: center;
+
+  .level,
+  .GamesPlayed,
+  .WinLossRatio,
+  .Accuracy {
+    padding: 10px !important;
+    min-width: 350px;
+    @include squareButton;
+    margin: 5px;
+  }
+
+  .level:hover,
+  .GamesPlayed:hover,
+  .WinLossRatio:hover,
+  .Accuracy:hover{
+    @include squareButtonHover;
+  }
+
+  img{
+    margin-top: 10px;
+    width: 25%;
+  }
+}

@@ -1,0 +1,53 @@
+.FriendBox{
+  @include squareButton;
+  padding: 20px !important;
+  h4{
+    font-size: 32px;
+  }
+  img{
+    transition: 0.2s;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  img:hover{
+    @include squareButtonHover;
+  }
+  .userPhoto, .userPhoto :hover{
+    background-color: $greenDark2;
+    border-radius: 15px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+  }
+}
+.searchFriendText{
+  input[type=text]{
+    font-size: 24px;
+    padding: 15px;
+    background-color: $greenDark2;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    transition: 0.2s;
+  }
+  input[type=text]:focus{
+    background-color: $greenDark1;
+
+  }
+}
+.searchFriendBtn {
+  input[type=button]{
+    text-align: center;
+    padding: 20px;
+    background-color: $greenDark2;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    transition: 0.2s;
+  }
+  input[type=button]:hover{
+    background-color: $greenDark1;
+  }
+}
