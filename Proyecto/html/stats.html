@@ -5,45 +5,105 @@
     <title>Stats</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../css/myStyle.css">
 </head>
 <body>
 
-<div class="col xs-12">
-    <h1> Stats </h1>
+<!--Sidenav -->
+<div id="sidenav" class="sidenav">
+    <!-- This Closes Side Nav -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!--  -->
+    <a href="../html/play.html">Play</a>
+    <a href="../html/friends.html">Friends</a>
+    <a href="../html/stats.html">Stats</a>
+    <a href="../html/profile.html">Profile</a>
+    <a href="../html/help.html">Contact</a>
+    <a href="../index.html">Logout</a>
 </div>
 
-<div class="container stats">
-    <div class="row">
-        <div class="col-xs-12 col-sm-3">
-            <div class="level">
-                <h2><b>Level: </b> 100</h2>
-                <img src="../img/BeerPongLevel.png" alt="BeerPong Master">
+<!-- TopNav -->
+<div id="topnav" class="topnav">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <a href="../html/play.html">Play</a>
             </div>
-        </div>
-        <div class="col-xs-12 col-sm-3">
-            <div class="GamesPlayed" >
-                <h2>Partidas Jugadas:</h2>
-                <h1>10</h1>
+            <div class="col-sm-2">
+                <a href="../html/friends.html">Friends</a>
             </div>
-        </div>
-        <div class="col-xs-12 col-sm-3">
-            <div class="WinLossRatio">
-                <h2>Victorias/Derrotas</h2>
-                <img src="../img/ChartWinLose.png" alt="WinLoss Ratio">
-                <p>Victorias: 5</p>
-                <p>Derrotas: 5</p>
+            <div class="col-sm-2">
+                <a href="../html/stats.html">Stats</a>
             </div>
-        </div>
-        <div class="col-xs-12 col-sm-3">
-            <div class="Accuracy" >
-                <h2>Precision</h2>
-                <img src="../img/ChartWinLose.png" alt="Accuracy Ratio">
-                <p>Tiros metidos: 10</p>
-                <p>Tiros fallados: 10</p>
+            <div class="col-sm-2">
+                <a href="../html/profile.html">Profile</a>
+            </div>
+            <div class="col-sm-2">
+                <a href="../html/help.html">Contact</a>
+            </div>
+            <div class="col-sm-2">
+                <a href="../index.html">Logout</a>
             </div>
         </div>
     </div>
 </div>
+<!-- Beginning of page -->
+<div class="main">
+    <!-- Para Sidenav -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-1">
+                <!-- This Opens side nav -->
+                <span id="openbtn" class="openNav" onclick="openNav()">
+              <!--  -->
+              <p>&#9776;</p>
+            </span>
+            </div>
+            <div class="col-xs-11">
+                <h1>Player Stats</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container stats">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3">
+                <div class="level">
+                    <h2><b>Level: </b> 100</h2>
+                    <img src="../img/BeerPongLevel.png" alt="BeerPong Master">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="GamesPlayed" >
+                    <h2>Games Played:</h2>
+                    <h1>10</h1>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="WinLossRatio">
+                    <h2>Winning Ratio</h2>
+                    <img src="../img/ChartWinLose.png" alt="WinLoss Ratio">
+                    <p>Wins: 5</p>
+                    <p>Losses: 5</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="Accuracy" >
+                    <h2>Shot Accuracy</h2>
+                    <img src="../img/ChartWinLose.png" alt="Accuracy Ratio">
+                    <p>On Target: 10</p>
+                    <p>Missed: 10</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="../js/jQuery/jquery.js"></script>
+<script type="text/javascript" src="../js/gui.js"></script>
 
 </body>
 </html>
