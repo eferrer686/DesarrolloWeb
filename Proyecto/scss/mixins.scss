@@ -39,3 +39,16 @@
   border-style: solid;
   border-color: $greenDark2;
 }
+@mixin body {
+  background-color: $greenMain;
+  width: 100%;
+  height: 100%;
+}
+@mixin main {
+    background-color: $greenMain;
+    transition: margin-left .5s;
+    padding: 20px;
+
+    height: 100%;
+    width: 100%;
+}

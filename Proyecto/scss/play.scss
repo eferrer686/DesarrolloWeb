@@ -1,16 +1,9 @@
 .playBody{
-  background-color: $greenMain;
-  width: 100%;
-  height: 100%;
+  @include body;
 }
 
 #main{
-  background-color: $greenMain;
-  transition: margin-left .5s;
-  padding: 20px;
-
-  height: 100%;
-  width: 100%;
+  @include main;
 
 
   h1,h2{
