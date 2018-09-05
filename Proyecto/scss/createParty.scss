@@ -18,6 +18,8 @@
       border: none;
       width: 100%;;
       font-size: 20px;
+      text-align: center;
+      
     }
 
     .addChallengerBtn {
@@ -35,7 +37,15 @@
         cursor: pointer;
       }
     }
-
-
   }
+
+  input[type=button]{
+    @include nextButton;
+    width: 100px;
+    height: 50px;
+  }
+  input[type=button]:hover{
+    @include nextButtonHover;
+  }
+
 }

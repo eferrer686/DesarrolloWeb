@@ -228,6 +228,7 @@ body {
   border: none;
   width: 100%;
   font-size: 20px;
+  text-align: center;
 }
 #main .addChallengers .addChallengerBtn h6 {
   width: 40px;
@@ -241,6 +242,26 @@ body {
 #main .addChallengers .addChallengerBtn h6:hover {
   background-color: #008040;
   cursor: pointer;
+}
+#main input[type=button] {
+  height: 30px;
+  margin: 20px;
+  color: white;
+  background-color: #008040;
+  padding: 0px 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: none;
+  transition: 0.2s;
+  right: 20px;
+  bottom: 20px;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+}
+#main input[type=button]:hover {
+  background-color: #00994d;
 }
 
 /*# sourceMappingURL=myStyle.css.map */

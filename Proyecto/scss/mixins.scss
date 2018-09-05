@@ -15,6 +15,25 @@
   background-color: $greenDark2;
 }
 
+@mixin nextButton {
+  height: 30px;
+  margin: 20px;
+  color: white;
+  background-color: $greenDark2;
+  padding: 0px 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: none;
+  transition: 0.2s;
+  right: 20px;
+  bottom: 20px;
+  position: absolute;
+}
+@mixin nextButtonHover {
+  background-color: $greenDark1;
+}
+
 @mixin squareButton {
   margin: 10px;
   padding: 50px;
