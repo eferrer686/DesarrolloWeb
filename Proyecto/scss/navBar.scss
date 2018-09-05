@@ -39,6 +39,30 @@
   }
 }
 
+.topnav {
+  
+  width: 100%;
+  background-color: $greenDark2;
+  .container{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    font-size: 25px;
+    color: $white;
+    display: block;
+    transition: 0.3s;
+    width: 100%;
+  }
+
+  a:hover {
+    color: $greenMain;
+  }
+}
+
+
 .openNav{
   text-align: center;
   margin-left: 20px;

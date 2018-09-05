@@ -1,0 +1,31 @@
+.playBody{
+  background-color: $greenMain;
+  width: 100vw;
+  height: 100vh;
+}
+
+#main{
+  background-color: $greenMain;
+  transition: margin-left .5s;
+  padding: 20px;
+
+  height: 100%;
+  width: 100%;
+
+  
+  h1,h2{
+    color: $white;
+    text-align: center;
+  }
+
+  .playMenu{
+    text-align: center;
+  }
+  .playBox{
+    @include squareButton;
+
+  }
+  .playBox:hover{
+    @include squareButtonHover;
+  }
+}

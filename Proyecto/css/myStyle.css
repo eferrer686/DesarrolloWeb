@@ -1,13 +1,37 @@
-#main {
+.playBody {
+  background-color: #00cc66;
   width: 100vw;
   height: 100vh;
+}
+
+#main {
   background-color: #00cc66;
   transition: margin-left 0.5s;
   padding: 20px;
+  height: 100%;
+  width: 100%;
 }
-#main h1 {
+#main h1, #main h2 {
   color: white;
   text-align: center;
+}
+#main .playMenu {
+  text-align: center;
+}
+#main .playBox {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+}
+#main .playBox:hover {
+  background-color: #00cc66;
+  border-color: #00994d;
+  cursor: pointer;
 }
 
 /* The side navigation menu */
@@ -51,6 +75,27 @@
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+.topnav {
+  width: 100%;
+  background-color: #008040;
+}
+.topnav .container {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.topnav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  width: 100%;
+}
+.topnav a:hover {
+  color: #00cc66;
 }
 
 .openNav {
@@ -109,6 +154,7 @@
   border-width: 2px;
   border-style: solid;
   border-color: #008040;
+  background-color: #00cc66;
 }
 .login input[type=button] {
   width: 100%;
