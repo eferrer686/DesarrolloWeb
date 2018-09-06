@@ -63,36 +63,56 @@
             </span>
           </div>
           <div class="col-xs-11">
-            <h1>Rules</h1>
+            <h1>Settings</h1>
           </div>
         </div>
       </div>
 
       <div class="container">
+
         <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <p>Selecciona un modo de juego</p>
+          <!-- Parameters -->
+          <div class="col-xs-10">
+            <p>Sounds</p>
           </div>
-          <div class="col-xs-12 col-sm-6">
-            <select>
-              <option value="Modo1">Juego Clásico</option>
-              <option value="Modo2">Modo Difícil</option>
-              <option value="Modo3">Modo Fácil</option>
-              <option value="Modo4">Novatos</option>
-              <option value="Modo5">Expertos</option>
-            </select>
+          <!-- Modifications -->
+          <div class="col-xs-2">
+            <input type="number" class="count" name="qty" value="1">
           </div>
         </div>
-      </div>
 
-      <div class="container">
+        <div class="row">
+          <!-- Parameters -->
+          <div class="col-xs-10">
+            <p>Animations speed</p>
+          </div>
+          <!-- Modifications -->
+          <div class="col-xs-2">
+            <input type="number" class="count" name="qty" value="1">
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-xs-12">
-            <p>Si bota antes de entrar es doble.</p>
-            <p>Si regresa la pelota, y la agarras, puedes tirar con la mano opuesta.</p>
-            <p>Si es de espaldas, es triple puntaje.</p>
-            <p>Una vez que toque la pelota el suelo, ya es turno del siguiente equipo.</p>
-            <p>Si todos los jugadores del equipo meten la pelota, se repite la ronda de tiro.</p>
+            <input type="checkbox" name="facebook" value="Facebook"> Post to Facebook<br>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <input type="checkbox" name="twitter" value="Twitter"> Post to Twitter<br>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-4">
+            <img src="../img/facebook_icon.png" alt="">
+          </div>
+          <div class="col-xs-4">
+            <img src="../img/twitter_icon.png" alt="">
+          </div>
+          <div class="col-xs-4">
+            <img src="../img/spotify.png" alt="">
           </div>
         </div>
       </div>
