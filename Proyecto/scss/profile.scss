@@ -1,0 +1,46 @@
+#main{
+
+  .profileInfo{
+    @include squareButton;
+    margin: 0 auto;
+    width: 70%;
+
+    min-width: 300px;
+
+    h2{
+      padding: 20px;
+      text-align: center;
+    }
+  }
+
+  .photo{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    @include squareButton;
+    margin: 0 auto;
+    border-color: $greenMain  ;
+  }
+
+  .photo img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+
+  .profieData{
+     .dataButton{
+       @include squareButton;
+       text-align: center;
+     }
+     .dataButton:hover{
+       @include squareButtonHover;
+     }
+  }
+
+}

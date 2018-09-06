@@ -32,7 +32,7 @@
   border-style: solid;
   border-width: 5px;
   transition: 0.2s;
-  min-width: 230px;
+  min-width: 150px;
 }
 #main .playBox:hover {
   background-color: #00cc66;
@@ -89,8 +89,11 @@
 }
 .topnav .container {
   width: 100%;
-  padding: 10px;
+  padding: 10px 0px 10px 0px;
   text-align: center;
+}
+.topnav .row {
+  padding: 0px;
 }
 .topnav a {
   text-decoration: none;
@@ -104,13 +107,8 @@
   color: #00cc66;
 }
 
-.openNavPar {
-  min-width: 50px;
-}
-
 .openNav {
   text-align: center;
-  margin: 0px 10px 0px 10px;
   min-width: 100%;
 }
 .openNav p {
@@ -221,6 +219,9 @@ body {
   color: white;
   text-align: center;
 }
+.createPartyBody #main .inputChallenger {
+  width: 100%;
+}
 .createPartyBody #main .addChallengers {
   margin: 0 auto;
   text-align: center;
@@ -236,13 +237,15 @@ body {
   font-size: 20px;
   text-align: center;
 }
+.createPartyBody #main .addChallengers .addChallengerBtn {
+  right: 100px;
+}
 .createPartyBody #main .addChallengers .addChallengerBtn h6 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #00cc66;
   font-size: 36px;
-  right: 20px;
   transition: 0.2s;
 }
 .createPartyBody #main .addChallengers .addChallengerBtn h6:hover {
@@ -269,6 +272,42 @@ body {
 .createPartyBody #main input[type=button]:hover {
   background-color: #00994d;
 }
+.createPartyBody #main .teamOptions {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+  margin: 50 auto;
+  width: 75%;
+}
+.createPartyBody #main .teamOptions .container {
+  width: 100%;
+}
+.createPartyBody #main .teamOptions p {
+  width: 100%;
+  text-align: right;
+}
+.createPartyBody #main .teamOptions input[type=number] {
+  background-color: rgba(0, 0, 0, 0);
+  width: 300px;
+  padding: 20px;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+.createPartyBody #main .teamOptions input::-webkit-outer-spin-button,
+.createPartyBody #main .teamOptions input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
 
 .FriendBox {
   margin: 10px;
@@ -279,7 +318,7 @@ body {
   border-style: solid;
   border-width: 5px;
   transition: 0.2s;
-  min-width: 230px;
+  min-width: 150px;
   padding: 20px !important;
 }
 .FriendBox h4 {
@@ -339,6 +378,7 @@ body {
 .stats .WinLossRatio,
 .stats .Accuracy {
   padding: 10px !important;
+  min-height: 180px;
   min-width: 350px;
   margin: 10px;
   padding: 50px;
@@ -348,7 +388,7 @@ body {
   border-style: solid;
   border-width: 5px;
   transition: 0.2s;
-  min-width: 230px;
+  min-width: 150px;
   margin: 5px;
 }
 .stats .level:hover,
@@ -362,6 +402,68 @@ body {
 .stats img {
   margin-top: 10px;
   width: 25%;
+}
+
+#main .profileInfo {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+  margin: 0 auto;
+  width: 70%;
+  min-width: 300px;
+}
+#main .profileInfo h2 {
+  padding: 20px;
+  text-align: center;
+}
+#main .photo {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+  margin: 0 auto;
+  border-color: #00cc66;
+}
+#main .photo img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#main .profieData .dataButton {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+  text-align: center;
+}
+#main .profieData .dataButton:hover {
+  background-color: #00cc66;
+  border-color: #00994d;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=myStyle.css.map */

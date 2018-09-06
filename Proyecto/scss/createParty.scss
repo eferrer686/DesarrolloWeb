@@ -3,6 +3,10 @@
   #main{
     @include main;
 
+    .inputChallenger{
+      width: 100%;
+    }
+
     .addChallengers{
       margin: 0 auto;
       text-align: center;
@@ -22,13 +26,14 @@
       }
 
       .addChallengerBtn {
+          right: 100px;
         h6{
           width: 40px;
           height: 40px;
           border-radius: 50%;
           background-color: $greenMain;
           font-size: 36px;
-          right: 20px;
+
           transition: 0.2s;
         }
         h6:hover{
@@ -47,6 +52,37 @@
       @include nextButtonHover;
     }
 
-  }
 
+    .teamOptions{
+      @include squareButton;
+      margin: 50 auto;
+      width: 75%;
+
+      .container{
+        width: 100%;
+      }
+
+      p{
+        width: 100%;
+        text-align: right;
+      }
+      input[type=number]{
+        background-color: rgba(0,0,0,0);
+        width: 300px;
+        padding: 20px;
+        border: none;
+        width: 100%;;
+        font-size: 20px;
+        text-align: center;
+      }
+      // Quitar botones de arriba y abajp
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        /* display: none; <- Crashes Chrome on hover */
+        -webkit-appearance: none;
+        margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+      }
+    }
+
+  }
 }

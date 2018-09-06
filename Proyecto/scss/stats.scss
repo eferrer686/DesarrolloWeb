@@ -6,6 +6,7 @@
   .WinLossRatio,
   .Accuracy {
     padding: 10px !important;
+    min-height: 180px;
     min-width: 350px;
     @include squareButton;
     margin: 5px;
