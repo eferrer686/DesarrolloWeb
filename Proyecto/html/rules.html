@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
-    <title>Create Party</title>
+    <title>Rules</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/myStyle.css">
 
+    <link rel="stylesheet" href="../css/myStyle.css">
   </head>
-  <body class="createPartyBody">
+
+  <body class="rulesBody">
+
     <div id="sidenav" class="sidenav">
       <!-- This Closes Side Nav -->
      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -47,7 +50,6 @@
       </div>
     </div>
 
-
     <!-- Beginning of page -->
     <div id="main">
 
@@ -61,59 +63,46 @@
             </span>
           </div>
           <div class="col-xs-11">
-            <h1>Create Party</h1>
+            <h1>Rules</h1>
           </div>
         </div>
       </div>
 
-      <div class="addChallengers">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-                <p>Luis Villa</p>
-            </div>
-            <div class="col-xs-12">
-                <p>Manuel Avalos</p>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <p>Selecciona un modo de juego</p>
           </div>
-          <div class="row inputChallenger">
-            <div class="col-xs-11">
-                <input type="text" name="nombre" value="Nombre" onfocus="this.value=''">
-            </div>
-            <div class="col-xs-1">
-              <span class="addChallengerBtn">
-                <h6>&#43;</h6>
-              </span>
-            </div>
+          <div class="col-xs-12 col-sm-6">
+            <select>
+              <option value="Modo1">Juego Clásico</option>
+              <option value="Modo2">Modo Difícil</option>
+              <option value="Modo3">Modo Fácil</option>
+              <option value="Modo4">Novatos</option>
+              <option value="Modo5">Expertos</option>
+            </select>
           </div>
         </div>
       </div>
 
-      <div class="teamOptions">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-8">
-              <p># peaple/team:</p>
-            </div>
-            <div class="col-xs-4">
-              <input type="number" name="" value="1">
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>Si bota antes de entrar es doble.</p>
+            <p>Si regresa la pelota, y la agarras, puedes tirar con la mano opuesta.</p>
+            <p>Si es de espaldas, es triple puntaje.</p>
+            <p>Una vez que toque la pelota el suelo, ya es turno del siguiente equipo.</p>
+            <p>Si todos los jugadores del equipo meten la pelota, se repite la ronda de tiro.</p>
           </div>
         </div>
       </div>
-
-
-      <input type="button" name="" value="Next">
 
     </div>
-    <!-- End of Page -->
+    <!-- End of page -->
 
-
-    <script src="js/bootstrap/bootstrap.min.js"></script>
     <script src="../js/jQuery/jquery.js"></script>
     <script type="text/javascript" src="../js/gui.js"></script>
 
   </body>
-
 
 </html>
