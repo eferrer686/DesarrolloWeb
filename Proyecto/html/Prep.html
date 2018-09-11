@@ -50,7 +50,7 @@
     </div>
 </div>
 <!-- Beginning of page -->
-<div id="main">
+<div id="main" class="prep">
     <!-- Para Sidenav -->
     <div class="container">
         <div class="row">
@@ -68,51 +68,75 @@
     </div>
 
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6">
-                <div class="nPlayers">
-                    <h2>Players:</h2>
-                    <input type="nPlayers" name="nPlayers" value="10">
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
-                <div class="drinkType">
-                    <h2>Drink:</h2>
-                    <input type="drinkType" name="Kind" value="Beer">
-                </div>
-            </div>
+        <div class="row nPlayers">
+          <div class="col-xs-12 col-sm-6">
+            <h2>Players:</h2>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <input type="number" name="" value="10">
+          </div>
+
+
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <h1>=</h1>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <h1>10 liters</h1>
-            </div>
+
+        <div class="row drinkType">
+          <div class="col-xs-12 col-sm-6">
+            <h2>Drink:</h2>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <input type="text" name="" value="Beer">
+          </div>
+
+
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <img src="../img/BeerCan.png" alt="BeerCan">
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <img src="../img/equalSign.png" alt="equals">
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <h1>12</h1>
-            </div>
-        </div>
-        <div class="row">
+
+      </div>
+      <hr>
+      <div class="prepCuantity">
+        <div class="container">
+          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <h1>Tiendas cercanas</h1>
+              <h1>10 liters</h1>
+              <hr>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <img src="../img/BeerCan.png" alt="BeerCan">
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <h1 class="prepH1">=</h1>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <h1>12</h1>
+            </div>
+          </div>
         </div>
-        <div class="row">
+      </div>
+
+
+
+      <div class="prepStores">
+        <div class="container">
+          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
+              <h1>Tiendas cercanas</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <div class="mapPrep">
                 <img src="../img/MapaOxxo.png" alt="mapita">
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
+
 </div>
+
+<script src="../js/jQuery/jquery.js"></script>
+<script type="text/javascript" src="../js/gui.js"></script>
 
 </body>
 </html>

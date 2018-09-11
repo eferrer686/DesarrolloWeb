@@ -1,0 +1,71 @@
+.prep{
+  .nPlayers, .drinkType{
+    @include squareButton;
+    padding: 5px;
+    margin: 10 auto;
+
+    input[type=text],
+    input[type=number]{
+      width: 100%;
+      background-color: $greenDark1;
+      border: none;
+      padding: 20px;
+      font-size: 18px;
+    }
+    h2{
+      font-size: 22px;
+    }
+  }
+
+  img{
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .mapPrep img{
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  hr{
+    border-color: $greenDark2;
+    border-width: 2px;
+  }
+
+  .prepCuantity{
+    @include squareButton;
+    margin: 0 auto;
+    padding: 10px;
+    .row{
+        width: 100%;
+    }
+    hr{
+      border-color: $greenDark2;
+      width: 90%;
+      margin: 10 auto;
+    }
+    img{
+      margin: 10px;
+      display: block;
+
+      margin: 0 auto;
+    }
+
+    .prepH1{
+      font-size: 100px;
+    }
+  }
+
+  .prepStores{
+    @include squareButton;
+    margin: 10px;
+    padding: 10px;
+    img{
+      margin: 10px auto;
+      display: block;
+      padding: 5px;
+      border-radius: 15px;
+      background-color: $greenDark2;
+    }
+  }
+}

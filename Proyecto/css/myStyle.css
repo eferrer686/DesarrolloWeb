@@ -466,4 +466,177 @@ body {
   cursor: pointer;
 }
 
+.selectRule {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.selectRule .container {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+  margin: 0 auto;
+  width: 80%;
+  padding: 5px;
+}
+.selectRule select {
+  margin: 5px;
+  margin-right: 200px;
+  padding: 15px;
+  background-color: #008040;
+  border: none;
+  width: 90%;
+  height: 100%;
+}
+
+.listRules {
+  width: 80%;
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+.prep .nPlayers, .prep .drinkType {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+  padding: 5px;
+  margin: 10 auto;
+}
+.prep .nPlayers input[type=text],
+.prep .nPlayers input[type=number], .prep .drinkType input[type=text],
+.prep .drinkType input[type=number] {
+  width: 100%;
+  background-color: #00994d;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+}
+.prep .nPlayers h2, .prep .drinkType h2 {
+  font-size: 22px;
+}
+.prep img {
+  width: 100px;
+  margin: 0 auto;
+}
+.prep .mapPrep img {
+  width: 500px;
+  margin: 0 auto;
+}
+.prep hr {
+  border-color: #008040;
+  border-width: 2px;
+}
+.prep .prepCuantity {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.prep .prepCuantity .row {
+  width: 100%;
+}
+.prep .prepCuantity hr {
+  border-color: #008040;
+  width: 90%;
+  margin: 10 auto;
+}
+.prep .prepCuantity img {
+  margin: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.prep .prepCuantity .prepH1 {
+  font-size: 100px;
+}
+.prep .prepStores {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+  margin: 10px;
+  padding: 10px;
+}
+.prep .prepStores img {
+  margin: 10px auto;
+  display: block;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #008040;
+}
+
+.settings {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+}
+.settings input[type=checkbox] {
+  margin: 0 auto;
+}
+.settings input[type=number] {
+  padding: 20px;
+  background-color: #008040;
+  border: none;
+  color: white;
+  width: 100%;
+}
+
+.connectApp {
+  margin: 10px;
+  padding: 50px;
+  background-color: #00994d;
+  border-radius: 15px;
+  border-color: #008040;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.2s;
+  min-width: 150px;
+}
+.connectApp img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+.connectApp img:hover {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=myStyle.css.map */

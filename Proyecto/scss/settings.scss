@@ -1,0 +1,26 @@
+.settings{
+  @include squareButton;
+  input[type=checkbox]{
+
+    margin: 0 auto;
+  }
+  input[type=number]{
+    padding: 20px;
+    background-color: $greenDark2;
+    border: none;
+    color: white;
+    width: 100%;
+  }
+
+}
+.connectApp{
+  @include squareButton;
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+  }
+  img:hover{
+    cursor: pointer;
+  }
+}

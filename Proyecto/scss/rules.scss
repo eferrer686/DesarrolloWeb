@@ -1,0 +1,27 @@
+.selectRule{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  .container{
+    @include squareButton;
+    margin: 0 auto;
+    width: 80%;
+    padding: 5px;
+  }
+  select{
+    margin: 5px;
+    margin-right: 200px;
+    padding: 15px;
+    background-color: $greenDark2;
+    border: none;
+    width: 90%;
+    height: 100%;
+  }
+}
+
+.listRules{
+  width: 80%;
+  @include squareButton;
+  margin: 20px auto;
+  text-align: justify;
+}
