@@ -7,6 +7,7 @@
   border-color: $blueD4;
   border-style: solid;
   margin: 0 auto;
+  transition: 0.2s;
 }
 @mixin normalButtonHover {
   background-color: $blueD1;
@@ -14,11 +15,31 @@
   cursor: pointer;
 }
 @mixin normalInput {
+  width: 100%;
   color: white;
   padding: 10px;
   border-radius: 5px;
   background-color: $blueD3;
   border-color: $blueD4;
   border-style: solid;
-  margin: 0 auto;
+  margin: 10px auto;
+  transition: 0.2s;
+}
+@mixin normalInputOnFocus {
+  background-color: $blueD1;
+  border-color: $blueD2;
+}
+@mixin normalP {
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+}
+@mixin row {
+  width: 30%;
+  min-width: 500px;
+  margin: 10px auto;
+  border-radius: 15px;
+  text-align: center;
+  background-color: $blueD2;
 }

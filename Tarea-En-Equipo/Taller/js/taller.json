@@ -1,0 +1,27 @@
+{"Taller":[
+  {"Nombre" : "Eduardo Ferrer Mac Gregor Ruiz",
+    "Telefono": "5531091542",
+    "Domicilio": "Amacuzac 254",
+    "Coche":  [
+              {"Marca":"Mitsubishi",
+                "Modelo":"Lancer",
+                "Año":"2006",
+                "Placa":"MAT-68-46"},
+              {"Marca":"Chevrolet",
+                "Modelo":"Chevy",
+                "Año":"2001",
+                "Placa":"RJA-476"}
+              ]
+  },
+  {"Nombre" : "Luis Villa",
+    "Telefono": "55555555",
+    "Domicilio": "Taj Mahal 90",
+    "Coche":  [
+      {"Marca":"Ford",
+        "Modelo":"Fiesta",
+        "Año":"2008",
+        "Placa":"LUI-571"}
+      ]
+    }
+  ]
+}

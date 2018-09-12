@@ -1,4 +1,5 @@
 .registroVehiculo {
+  padding: 20px;
   background-color: #66ccff;
   color: white;
 }
@@ -13,18 +14,116 @@
   text-align: center;
   background-color: #00aaff;
 }
+.registroVehiculo .row div {
+  margin: 0 auto;
+}
 .registroVehiculo .row p {
   text-align: center;
   padding: 10px;
+  margin: 10px auto;
+  width: 100%;
 }
-.registroVehiculo .row select {
+.registroVehiculo .row input[type=text],
+.registroVehiculo .row input[type=number] {
+  width: 100%;
   color: white;
   padding: 10px;
   border-radius: 5px;
   background-color: #0088cc;
   border-color: #006699;
   border-style: solid;
+  margin: 10px auto;
+  transition: 0.2s;
+}
+.registroVehiculo .row input[type=text]:focus,
+.registroVehiculo .row input[type=number]:focus {
+  background-color: #33bbff;
+  border-color: #00aaff;
+}
+
+.registroCliente {
+  padding: 20px;
+  background-color: #66ccff;
+  color: white;
+}
+.registroCliente h1 {
+  text-align: center;
+}
+.registroCliente .row {
+  width: 30%;
+  min-width: 500px;
+  margin: 10px auto;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #00aaff;
+}
+.registroCliente .row div {
   margin: 0 auto;
+}
+.registroCliente .row p {
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+}
+.registroCliente .row input[type=text],
+.registroCliente .row input[type=number] {
+  width: 100%;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0088cc;
+  border-color: #006699;
+  border-style: solid;
+  margin: 10px auto;
+  transition: 0.2s;
+}
+.registroCliente .row input[type=text]:focus,
+.registroCliente .row input[type=number]:focus {
+  background-color: #33bbff;
+  border-color: #00aaff;
+}
+
+.registroServicio {
+  padding: 20px;
+  background-color: #66ccff;
+  color: white;
+}
+.registroServicio h1 {
+  text-align: center;
+}
+.registroServicio .row {
+  width: 30%;
+  min-width: 500px;
+  margin: 10px auto;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #00aaff;
+}
+.registroServicio .row div {
+  width: 40%;
+  margin: 0 auto;
+}
+.registroServicio .row p {
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+}
+.registroServicio .row select {
+  width: 100%;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0088cc;
+  border-color: #006699;
+  border-style: solid;
+  margin: 10px auto;
+  transition: 0.2s;
+}
+.registroServicio .row select:focus {
+  background-color: #33bbff;
+  border-color: #00aaff;
 }
 
 input[type=button] {
@@ -36,6 +135,7 @@ input[type=button] {
   border-color: #006699;
   border-style: solid;
   margin: 0 auto;
+  transition: 0.2s;
 }
 
 input[type=button]:hover {
