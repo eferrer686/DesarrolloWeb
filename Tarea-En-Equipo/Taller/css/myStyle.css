@@ -125,6 +125,9 @@
   background-color: #33bbff;
   border-color: #00aaff;
 }
+.registroServicio .noBackground {
+  background: none;
+}
 
 input[type=button] {
   display: block;

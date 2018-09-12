@@ -24,7 +24,8 @@
     select:focus{
       @include normalInputOnFocus;
     }
-
-
+  }
+  .noBackground{
+    background: none;
   }
 }

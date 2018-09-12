@@ -10,7 +10,7 @@
           <p>Cliente:</p>
         </div>
         <div class="col-xs-6">
-          <select class="selectCliente" name="">
+          <select class="selectCliente" name="" id="selectCliente" onchange="loadCochesToSelect()">
 
           </select>
         </div>
@@ -20,7 +20,7 @@
           <p>Coche:</p>
         </div>
         <div class="col-xs-6">
-          <select class="selectCoche" name="">
+          <select class="selectCoche" name="" id="selectCoche">
 
           </select>
         </div>
@@ -38,7 +38,17 @@
 
     </div>
 
-  <input type="button" name="agregarServicio" value="Agregar" onclick="agregarServicio()">
+    <div class="container">
+      <div class="row noBackground">
+        <div class="col-xs-6">
+          <input type="button" name="updatePage" value="Sincronizar" onclick="updateServiciosPage()">
+        </div>
+        <div class="col-xs-6">
+          <input type="button" name="agregarServicio" value="Agregar" onclick="agregarServicio()">
+        </div>
+      </div>
+    </div>
+
 </div>
 
 
