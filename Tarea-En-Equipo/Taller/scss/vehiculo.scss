@@ -1,0 +1,32 @@
+.registroVehiculo{
+  background-color: $blue;
+  color: white;
+  h1{
+    text-align: center;
+  }
+
+  .row{
+
+    width: 30%;
+    min-width: 500px;
+    margin: 10px auto;
+    border-radius: 15px;
+    text-align: center;
+    background-color: $blueD2;
+
+    p{
+      text-align: center;
+      padding: 10px;
+    }
+    select{
+      @include normalInput;
+    }
+  }
+}
+
+input[type=button]{
+  @include normalButton;
+}
+input[type=button]:hover{
+  @include normalButtonHover;
+}

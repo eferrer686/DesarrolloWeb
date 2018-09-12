@@ -1,0 +1,24 @@
+@mixin normalButton {
+  display: block;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: $blueD3;
+  border-color: $blueD4;
+  border-style: solid;
+  margin: 0 auto;
+}
+@mixin normalButtonHover {
+  background-color: $blueD1;
+  border-color: $blueD2;
+  cursor: pointer;
+}
+@mixin normalInput {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: $blueD3;
+  border-color: $blueD4;
+  border-style: solid;
+  margin: 0 auto;
+}

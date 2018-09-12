@@ -1,0 +1,47 @@
+.registroVehiculo {
+  background-color: #66ccff;
+  color: white;
+}
+.registroVehiculo h1 {
+  text-align: center;
+}
+.registroVehiculo .row {
+  width: 30%;
+  min-width: 500px;
+  margin: 10px auto;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #00aaff;
+}
+.registroVehiculo .row p {
+  text-align: center;
+  padding: 10px;
+}
+.registroVehiculo .row select {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0088cc;
+  border-color: #006699;
+  border-style: solid;
+  margin: 0 auto;
+}
+
+input[type=button] {
+  display: block;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0088cc;
+  border-color: #006699;
+  border-style: solid;
+  margin: 0 auto;
+}
+
+input[type=button]:hover {
+  background-color: #33bbff;
+  border-color: #00aaff;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=myStyle.css.map */
