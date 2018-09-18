@@ -12,9 +12,6 @@ var taller = (function () {
     });
     return json;
 })();
-function printJSON(){
-  console.log(taller);
-};
 
 function agregarVehiculo(){
   var marca = document.getElementsByName("marca")[0].value;
@@ -53,7 +50,7 @@ function loadCochesToSelect(){
     var cliente = document.getElementById("selectCliente").value;
     if(this.taller.Taller[i].Nombre==cliente){
       for (var j = 0; j < this.taller.Taller[i].Coche.length; j++) {
-        console.log(this.taller.Taller[j].Coche);
+
         html+="<option>"+this.taller.Taller[i].Coche[j].Placa+"</option>";
       }
     }
