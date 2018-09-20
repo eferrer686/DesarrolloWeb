@@ -1,0 +1,155 @@
+<style media="screen">
+
+  body{
+    font-family: sans-serif;
+  }
+
+  .topnav{
+
+    margin: 50 auto;
+    text-align: center;
+    background-color: rgb(0, 153, 153);
+    box-shadow: 2px 2px rgb(0, 120, 120);
+  }
+  .topnav p{
+    padding: 20px;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .doge{
+    height: 74px;
+    width: 60px;
+  }
+  .titlePage {
+    width: 100%;
+    padding-bottom:  20px;
+    background-color:  rgb(0, 140, 140);
+  }
+  .titlePage h1{
+    margin: 20px auto;
+    text-align: center;
+    border-style: dotted;
+    border-color: white;
+    border-width: thick;
+    width:50%;
+    color: white;
+    text-shadow: 2px 2px rgb(0, 120, 120);
+  }
+  .titlePage h2{
+    margin: 20px auto;
+    text-align: center;
+    width:80%;
+    color: white;
+  }
+  .fotoMexico{
+    margin: 10px auto;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    font-weight: bolder;
+  }
+  .fotoMexico img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .aboutMe{
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 234, 182);
+    padding-bottom: 20px;
+  }
+  .aboutMe h1{
+    margin: 0;
+    font-size: 45px;
+    text-shadow: 2px 2px orange;
+
+  }
+  .aboutMe hr{
+    border-style: dashed;
+    width: 200px;
+  }
+  .aboutMe p{
+    margin: 0 auto;
+    width: 30%;
+    padding-bottom: 30px;
+    font-size: 12px;
+  }
+  .aboutMe img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .aboutMe h2{
+    margin: 0;
+  }
+  .aboutMe h4{
+    margin-top:  0;
+  }
+  .tableDescription{
+    text-align: justify;
+  }
+  .tableDescription td{
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: text-top;
+  }
+
+  .portfolio{
+      background-color: rgb(255, 153, 102);
+      padding-top: 30px;
+  }
+  .portfolio h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 2px 2px rgb(255, 183, 162);
+    font-size: 45px;
+  }
+  .portfolioTitle{
+    text-align: center;
+  }
+  .portfolioTitle hr{
+    border-style: dashed;
+    width: 200px;
+  }
+  .portfolio{
+    width: 100%;
+  }
+  .portfolio p{
+    margin-top: 0;
+    font-size: 12px;
+  }
+
+  .portfolioFoto{
+    margin: 10px auto;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .portfolioFoto img{
+    width: 100%;
+  }
+
+  .tags table{
+    margin-left: 10%;
+  }
+  .tag{
+    background-color:  white;
+    border-radius: 5px;
+    padding:8px;
+  }
+  .alone{
+    font-weight: lighter;
+  }
+
+
+</style>
