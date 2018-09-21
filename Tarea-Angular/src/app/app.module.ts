@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { TitlePageComponent } from './title-page/title-page.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { TopnavComponent } from './topnav/topnav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TitlePageComponent,
     AboutMeComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    TopnavComponent
   ],
   imports: [
     BrowserModule
