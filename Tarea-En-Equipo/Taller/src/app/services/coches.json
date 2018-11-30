@@ -1,0 +1,20 @@
+[
+  {
+    "Marca": "Mitsubishi",
+    "Modelo": "Lancer",
+    "Año": "2006",
+    "Placa": "MAT-68-46"
+  },
+  {
+    "Marca": "Chevrolet",
+    "Modelo": "Chevy",
+    "Año": "2001",
+    "Placa": "RJA-476"
+  },
+  {
+    "Marca": "Ford",
+    "Modelo": "Fiesta",
+    "Año": "2008",
+    "Placa": "LUI-571"
+  }
+]

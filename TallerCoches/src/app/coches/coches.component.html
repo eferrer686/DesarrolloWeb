@@ -1,0 +1,30 @@
+<div class="main">
+
+  <h1>Coches</h1>
+  <h2>Lista de coches registrados</h2>
+<div class="lista">
+  <div class="container">
+    <div class="row title">
+      <div class="col-sm-2">Id</div>
+      <div class="col-sm-2">Marca</div>
+      <div class="col-sm-2">Modelo</div>
+      <div class="col-sm-2">Placa</div>
+      <div class="col-sm-2">Km</div>
+      <div class="col-sm-2">Servicio</div>
+      <hr>
+    </div>
+    <div class='row' 
+    *ngFor="let coche of coches" 
+    [ngClass]="{ 'goodKm': coche.km<=1000 , 'orangeKm': coche.km<=100, 'redKm':coche.km<0}"
+    (click)="goToCoche(coche)">
+      <div class="col-sm-2">{{coche.id}}</div>
+      <div class="col-sm-2">{{coche.marca}}</div>
+      <div class="col-sm-2">{{coche.modelo}}</div>
+      <div class="col-sm-2">{{coche.placa}}</div>
+      <div class="col-sm-2">{{coche.km}}</div>
+      <div class="col-sm-2">{{coche.servicioFecha}}</div>
+    </div>
+    
+  </div>
+</div>
+</div>

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Cliente} from "../models/Cliente";
+import {ClienteCallServiceService} from "../services/cliente-call-service.service"
+
 
 @Component({
   selector: 'app-cliente',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClienteComponent implements OnInit {
 
-  constructor() { }
+  clients = new Array();
 
+  constructor(public rest: ClienteCallServiceService) { }
+
+  
   ngOnInit() {
+    
+    this.getClientes();
   }
-
+  getClientes() {
+    this.clients = new Array();
+    this.rest.getClientes().subscribe((data: any) => {
+      console.log(data);
+      this.clients = data;
+    });
+  }
 }

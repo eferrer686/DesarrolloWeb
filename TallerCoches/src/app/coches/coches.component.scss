@@ -1,0 +1,47 @@
+.main{
+    
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    height: 100vh;
+
+    .lista{
+        background: gray;
+        width: 90%;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .row{
+        margin: 10px;
+       
+    }
+    .row:hover{
+        
+        cursor: pointer;
+    }
+
+    h1{
+        text-align: left;
+        padding: 20px;
+    }
+    .goodKm{
+        background-color: yellow;
+        color: black;
+    }
+    .orangeKm{
+        background-color: orange;
+        color: white;
+    }
+    .redKm{
+        background-color: red;
+        color: white;
+    }
+    hr{
+        border-width: 1px;
+        border-color: black;
+    }
+    
+}

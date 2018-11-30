@@ -1,0 +1,38 @@
+
+<div class="servicio">
+    <h1>Servicios</h1>
+    <h2>{{coche.marca}}</h2>
+  <div class="info">
+    
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4">
+          <p>{{coche.modelo}}</p>
+        </div>
+        <div class="col-xs-4">
+          <p>{{coche.placa}}</p>
+        </div>
+        <div class="col-xs-4">
+          <p>{{coche.km}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lista">
+    <h2>Lista de Servicios</h2>
+    <div class="container">
+      <div class="row" *ngFor="let servicio of coche.servicios"
+      (click)="goToServicio(servicio)">
+        <div class="col-xs-6">
+          <p>{{servicio.fecha}}</p>
+        </div>
+        <div class="col-xs-6">
+            <p>{{servicio.tipo}}</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</div>

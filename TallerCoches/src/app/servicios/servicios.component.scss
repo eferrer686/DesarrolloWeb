@@ -1,0 +1,40 @@
+.servicio{
+    
+    padding: 20px;
+    text-align: center;
+    background: cadetblue;
+    height: 100vh;
+    color: white;
+    h2{
+        font-size: 20px;
+    }
+    .info{
+        border-top: 1px solid whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+
+        width: 80%;
+        margin: 20px auto;
+        p{
+            padding: 5px;
+            margin-top: 5px;
+            font-weight: bold;
+            color: whitesmoke;
+        }
+    }
+
+    .lista{
+        color: cadetblue;
+        background: white;
+        width: 75%;
+        margin: 0 auto;
+        border-radius: 10px;
+        
+        .row{
+            border-bottom: 1px cadetblue solid;
+            margin: 0 auto;
+        }
+        .row:hover{
+            cursor: pointer;
+        }
+    }
+}
